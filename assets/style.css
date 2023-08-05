@@ -22,17 +22,67 @@ h4{
     font-size: 120%;
 }
 
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.about{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: stretch;
+}
+
+.about h3 {
+    flex: 0 0 20%;
+    text-align: right;
+}
+
+.about div {
+    flex: 0 0 77%;
+}
+
 figure{
     border: 5px;
     border-style: solid;
     border-color: var(--col);
 }
 
+/* .hero{
+
+} */
+
+.nav1{
+    margin: 2px
+}
+
 .nav2{
-    underline
+    /* underline */
+}
+
+.workContain{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
 }
 
 .infoCard{
+    background-size: 100%;
+    display: flex;
+    align-items: flex-end;
+}
+
+.infoCard div {
     background-color: var(--col);
     /* position: absolute; */
+}
+
+.surf{
+    background-image: url('./images/vacation.jpg');
 }
