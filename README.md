@@ -19,3 +19,8 @@ Req:
     3. the first app img is larger than the others
     4. clicking imgs leads to the deployed application
     5. responsive layout
+
+
+How to make the column for the subheadings?
+
+Req banner image

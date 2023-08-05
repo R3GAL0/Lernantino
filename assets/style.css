@@ -1,6 +1,7 @@
 * {
     font-size: 16px;
     font-family: sans-serif;
+    --col: lightblue;
 }
 
 h1{
@@ -9,11 +10,29 @@ h1{
 }
 
 h2{
-    font-size: 150%;
+    font-size: 130%;
     padding: 8px;
 }
 
+h3{
+    font-size: 150%;
+}
+
+h4{
+    font-size: 120%;
+}
+
+figure{
+    border: 5px;
+    border-style: solid;
+    border-color: var(--col);
+}
 
 .nav2{
     underline
+}
+
+.infoCard{
+    background-color: var(--col);
+    /* position: absolute; */
 }
