@@ -11,7 +11,6 @@ About Me: summary paragraph
 Work: Surf report, led wall, calculator, pastel puzzles, run buddy
     work is pics with a title, subtitle, and changes when selected
 
-Contact me
 
 Req:
     1. follow structure
@@ -21,6 +20,7 @@ Req:
     5. responsive layout
 
 
-How to make the column for the subheadings?
+h1 surrounded by light blue padding, 
 
-Req banner image
+
+change img sizes for different screens

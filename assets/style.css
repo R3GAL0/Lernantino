@@ -2,6 +2,7 @@
     font-size: 16px;
     font-family: sans-serif;
     --col: lightblue;
+    --bgnd: grey;
 }
 
 h1{
@@ -28,6 +29,7 @@ header{
     justify-content: space-between;
     flex-wrap: wrap;
     align-items: center;
+    background-color: var(--bgnd);
 }
 
 .about{
@@ -36,6 +38,7 @@ header{
     justify-content: space-between;
     flex-wrap: wrap;
     align-items: stretch;
+    padding: 20px;
 }
 
 .about h3 {
@@ -53,16 +56,26 @@ figure{
     border-color: var(--col);
 }
 
-/* .hero{
+.hero{
+    background-image: url('./images/download.jpg');
+}
 
-} */
+.hero h2 {
+    text-align: right;
+    color: white;
+}
 
 .nav1{
     margin: 2px
 }
 
+.nav1 a{
+    color: var(--col);
+}
+
 .nav2{
     /* underline */
+    justify-content: space-evenly;
 }
 
 .workContain{
@@ -72,17 +85,67 @@ figure{
 
 }
 
-.infoCard{
-    background-size: 100%;
+.card{
+    background-size: 300px;
     display: flex;
     align-items: flex-end;
 }
 
-.infoCard div {
+.card div {
     background-color: var(--col);
     /* position: absolute; */
 }
 
 .surf{
     background-image: url('./images/vacation.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 400px;
+    padding: 10px;
+}
+
+.puffin{
+    background-image: url('./images/slider_puffin_before_mobile.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50%;
+    height: 50%;
+    padding: 10px;
+}
+
+.camera{
+    background-image: url('./images/cameraLens.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50%;
+    height: 50%;
+    padding: 10px;
+}
+
+.tiger{
+    background-image: url('./images/tiger.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50%;
+    height: 50%;
+    padding: 10px;
+}
+
+.stock{
+    background-image: url('./images/stockImg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50%;
+    height: 50%;
+    padding: 10px;
+}
+
+#contactMe{
+    position: absolute;
+    bottom: 0;
+}
+
+#work{
+    margin-bottom:200px;
 }
