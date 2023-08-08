@@ -71,11 +71,12 @@ figure{
 .hero h2 {
     text-align: right;
     color: white;
+    padding: 15px;
 }
 
 /* formatting the bottom and top navs */
 .nav1{
-    margin: 2px
+    margin: 10px
 }
 
 .nav1{
@@ -93,7 +94,7 @@ figure{
 
 .nav2 a{
     /* underline */
-    padding: 10px;
+    padding: 30px;
     text-decoration-thickness: 5px;
 }
 
@@ -112,7 +113,6 @@ figure{
 
 .card div {
     background-color: var(--col);
-    /* position: absolute; */
 }
 
 .small{
@@ -139,7 +139,7 @@ figure{
 }
 
 .puffin{
-    background-image: url('./images/slider_puffin_before_mobile.jpg');
+    background-image: url('./images/Atlantic-puffin-rock_3x4.jpeg');
 }
 
 .puffin:hover {
@@ -174,7 +174,6 @@ figure{
 #work{
     margin-bottom:400px;
 }
-
 
 /* Imgs go into a column for small screens + set contact me to the new bottom of the page */
 

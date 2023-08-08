@@ -1,25 +1,37 @@
-# MW-HW-02
+# Lernantino (MW-HW-02)
 
-structure::
+[Challenge 2 for Max Walent]
 
-Banner with links (about me, work, contact me, resume)
+<a href='https://r3gal0.github.io/Lernantino/'>Deployed Link</a>
 
-Sub banner with subtitle
+## Description
 
-About Me: summary paragraph
+A portfolio webpage to showcase my projects done so far. It includes an About Me section, a Work section with links to the projects I have worked on, and a Contact Me section with links to all my relevant social media.
 
-Work: Surf report, led wall, calculator, pastel puzzles, run buddy
-    work is pics with a title, subtitle, and changes when selected
+<img src='./assets/images/img1.PNG' alt='Top half of the website'/>
+<img src='./assets/images/img2.PNG' alt='Bottom half of the website'/>
 
+## License
 
-Req:
-    1. follow structure
-    2. functioning links to same page
-    3. the first app img is larger than the others
-    4. clicking imgs leads to the deployed application
-    5. responsive layout
+MIT License
 
+Copyright (c) [2023] [Lernantino]
 
-extend bar to the bottom
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
 
-finish readme
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
