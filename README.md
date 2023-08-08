@@ -8,10 +8,8 @@
 
 A portfolio webpage to showcase my projects done so far. It includes an About Me section, a Work section with links to the projects I have worked on, and a Contact Me section with links to all my relevant social media.
 
-<img src='./assets/images/img1.PNG' alt='Top half of the website'/>
-<img src='./assets/images/img2.PNG' alt='Bottom half of the website'/>
-
-<img src="./assets/images/img1.PNG" alt="Top half of the website"/>
+<img src='./assets/images/img1.JPG' alt='Top half of the website'/>
+<img src='./assets/images/img2.JPG' alt='Bottom half of the website'/>
 
 ## License
 
