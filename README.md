@@ -11,6 +11,8 @@ A portfolio webpage to showcase my projects done so far. It includes an About Me
 <img src='./assets/images/img1.PNG' alt='Top half of the website'/>
 <img src='./assets/images/img2.PNG' alt='Bottom half of the website'/>
 
+<img src="./assets/images/img1.PNG" alt="Top half of the website"/>
+
 ## License
 
 MIT License
