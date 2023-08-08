@@ -20,12 +20,6 @@ Req:
     5. responsive layout
 
 
-
-add alt attributes to images
-
-image changes with cursor
-    ::hover
-
 extend bar to the bottom
 
 finish readme

@@ -24,6 +24,7 @@ h4{
     font-size: 120%;
 }
 
+/* Orientating the main header wrt the nav bar */
 header{
     display: flex;
     flex-direction: row;
@@ -37,9 +38,7 @@ header h1{
     background-color: var(--col);
 }
 
-main, footer{
-}
-
+/* Orientates the h4 headers with respect to ther sub elements and sets the space for the headers vs the sub elements */
 .about{
     display: flex;
     flex-direction: row;
@@ -74,6 +73,7 @@ figure{
     color: white;
 }
 
+/* formatting the bottom and top navs */
 .nav1{
     margin: 2px
 }
@@ -97,16 +97,13 @@ figure{
     text-decoration-thickness: 5px;
 }
 
+/* formats the imgs into orientation and sets the size for the small imgs */
 .workContain{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
 
 }
-/* 
-.workContain::hover{
-    filter: sepia(100%) saturate(300%) brightness(70%) hue-rotate(180deg);
-} */
 
 .card{
     display: flex;
@@ -127,6 +124,7 @@ figure{
     
 }
 
+/* Setting all the background imgs and the tinted version of the imgs */
 .surf{
     background-image: url('./images/vacation.jpg');
     background-repeat: no-repeat;
@@ -136,38 +134,49 @@ figure{
     padding: 10px;
 }
 
-.surf::hover{
-    background-image: url('./images/cameraLens.jpg')
+.surf:hover {
+    background-image: url('./images/vacationTint.jpg');
 }
 
 .puffin{
     background-image: url('./images/slider_puffin_before_mobile.jpg');
 }
 
+.puffin:hover {
+    background-image: url('./images/puffinTint.jpg');
+}
+
 .camera{
     background-image: url('./images/cameraLens.jpg');
+}
+
+.camera:hover {
+    background-image: url('./images/cameraTint.jpg');
 }
 
 .tiger{
     background-image: url('./images/tiger.jpeg');
 }
 
+.tiger:hover {
+    background-image: url('./images/tigerTint.jpg');
+}
+
 .stock{
     background-image: url('./images/stockImg.png');
 }
 
-#contactMe{
-    /* text-align:end; */
-    /* bottom: 0; */
+.stock:hover {
+    background-image: url('./images/stockTint.png');
 }
 
+/* needed for the contact me not to overlap onto the imgs above. Reset for diff screen size */
 #work{
     margin-bottom:400px;
 }
 
-@media screen and (max-width: 992px){
-    
-}
+
+/* Imgs go into a column for small screens + set contact me to the new bottom of the page */
 
 @media screen and (max-width: 768px){
 
