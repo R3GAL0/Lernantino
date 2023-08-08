@@ -20,7 +20,8 @@ Req:
     5. responsive layout
 
 
-h1 surrounded by light blue padding, 
+
+add alt attributes to images
 
 
-change img sizes for different screens
+image changes with cursor
