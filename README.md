@@ -23,5 +23,9 @@ Req:
 
 add alt attributes to images
 
-
 image changes with cursor
+    ::hover
+
+extend bar to the bottom
+
+finish readme
