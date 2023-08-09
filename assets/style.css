@@ -58,6 +58,12 @@ header h1{
     flex: 0 0 77%;
 }
 
+
+.about div img {
+    
+    position: relative;
+}
+
 figure{
     border: 5px;
     border-style: solid;
@@ -72,6 +78,12 @@ figure{
     text-align: right;
     color: white;
     padding: 15px;
+}
+
+/* Putting the face pic beside the text */
+#aboutMe div {
+    display: flex;
+    align-items: flex-start;
 }
 
 /* formatting the bottom and top navs */
