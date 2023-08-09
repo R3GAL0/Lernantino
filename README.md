@@ -1,8 +1,8 @@
-# Lernantino (MW-HW-02)
+# Portfolio (MW-HW-02)
 
 [Challenge 2 for Max Walent]
 
-<a href='https://r3gal0.github.io/Lernantino/'>Deployed Link</a>
+<a href='https://r3gal0.github.io/Portfolio/'>Deployed Link</a>
 
 ## Description
 
