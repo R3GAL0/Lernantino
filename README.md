@@ -15,7 +15,7 @@ A portfolio webpage to showcase my projects done so far. It includes an About Me
 
 MIT License
 
-Copyright (c) [2023] [Lernantino]
+Copyright (c) [2023] [Max Walent]
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
